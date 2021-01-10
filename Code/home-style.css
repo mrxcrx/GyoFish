@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 10px;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.search {
+  width: 50px;
+  margin-top: -1px;
+  padding-left: 5px;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.navbar-search {
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0 170px;
+  line-height: 40px;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+}
+
+.input-group-plaintext {
+  display: flex;
+}
+
+input::placeholder {
+  font-weight: 700;
+  color: #cbcbcb;
+  font-size: 18px;
+}
+
+.nav-item .nav-link {
+  font-size: 15px;
+  color: #000000;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+
+.cart {
+  display: flex;
+  margin-right: 50px;
+}
+
+ul li:nth-child(1) a {
+  font-weight: 700;
+  border-bottom: 2px solid #bb61ce;
+}
+
+ul li:nth-child(2) a:hover {
+  border-bottom: 2px solid #bb61ce;
+}
+
+ul li:nth-child(3) a:hover {
+  border-bottom: 2px solid #bb61ce;
+}
+
+.circle {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #bb61ce;
+  position: absolute;
+  z-index: -1;
+  clip-path: circle(280px at right);
+  margin-top: 10px;
+}
+
+.first {
+  position: absolute;
+  margin-top: 50px;
+}
+
+.fish {
+  overflow: hidden;
+}
+
+.first img {
+  margin-top: -30px;
+  width: 600px;
+  margin-right: 150px;
+}
+
+.first h2 {
+  position: absolute;
+  font-size: 55px;
+  font-weight: 700;
+  color: #8d8d8d;
+  margin-top: 80px;
+}
+
+.first h2 span {
+  color: #bb61ce;
+}
+
+.first p {
+  font-size: 22px;
+  margin-top: 250px;
+}
+
+.first a {
+  margin-right: 50px;
+  margin-bottom: -100px;
+  padding: 12px 40px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.first .sign-up {
+  border: 2px solid #bb61ce;
+  color: #bb61ce;
+  transition: 0.3s;
+}
+
+.first .sign-in {
+  background-color: #bb61ce;
+  color: white;
+  transition: 0.3s;
+}
+
+.first .sign-up:hover {
+  border: 2px solid #bb61ce;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: -90px;
+  color: #bb61ce;
+}
+
+.first .sign-in:hover {
+  margin-bottom: -90px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.second {
+  height: 400px;
+  margin-top: 600px;
+}
+
+.barang {
+  width: 520px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.barang:hover {
+  box-shadow: 2px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cart-fish {
+  display: flex;
+}
+
+.gambar-cart {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  background-color: #f6caff;
+  display: flex;
+  overflow: hidden;
+}
+
+.gambar-cart img {
+  background-size: cover;
+  transition: 0.5s;
+}
+
+.gambar-cart:hover img {
+  transform: scale(1.2);
+}
+
+.cart-fish h2 {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.content {
+  margin-top: 50px;
+  padding-left: 30px;
+}
+
+.content ul li {
+  text-decoration: none;
+  display: inline-block;
+  left: 0;
+}
+
+.content ul {
+  margin-left: -30px;
+}
+
+.content span {
+  margin-left: 10px;
+}
+
+.keranjang {
+  width: 155px;
+  background-color: #bb61ce;
+  padding: 10px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.keranjang a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.keranjang img {
+  filter: invert();
+  margin-left: 2px;
+}
+
+.keranjang:hover {
+  box-shadow: 1px 1px 10px 1px rgba(187, 97, 206, 1);
+}
+
+.third {
+  margin-top: 100px;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../Hasil/Asset/Aesthetic.png);
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.third h2 {
+  margin: auto;
+  font-size: 700;
+  font-size: 64px;
+  margin-top: 50px;
+  color: white;
+}
+
+.third .detail {
+  color: white;
+  padding: 25px 105px;
+  border-radius: 10px;
+  border: 5px solid white;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 130px;
+  transition: 0.5s;
+}
+
+.third .detail:hover {
+  background-color: #bb61ce;
+  box-shadow: 0 0 10px 5px rgba(187, 97, 206, 1);
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
+.third h1 {
+  display: inline-block;
+  margin-top: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.third img {
+  padding: 10px;
+}
+
+.fourth {
+  margin-top: 150px;
+  width: 100%;
+  height: 600px;
+}
+
+.fourth h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #bb61ce;
+}
+
+.fourth hr {
+  width: 320px;
+  border-top: 4px solid #a302c4;
+  align-items: center;
+  margin: auto;
+}
+
+.card-layanan {
+  width: 90%;
+  height: 450px;
+  border: 1px solid #bdbdbd;
+  border-radius: 15px;
+  margin: 100px 15px;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+
+.card-layanan:hover {
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+  margin-bottom: 110px;
+}
+
+.card-layanan img {
+  padding-top: 10px;
+}
+
+.card-layanan h3 {
+  font-weight: 700;
+  color: #8d8d8d;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 440px;
+  background-color: #bb61ce;
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+footer .container img {
+  margin-top: 150px;
+  position: relative;
+  z-index: 99;
+}
+
+footer img {
+  margin-top: -47px;
+  display: flex;
+}
+
+footer h2 {
+  color: white;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+footer ul li {
+  margin-top: -100px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+footer ul li h3 {
+  display: inline-block;
+  position: absolute;
+  margin-top: 155px;
+  margin-left: 80px;
+  color: white;
+  left: 0;
+}
+
+footer .kedua img {
+  top: 0;
+  right: 0;
+  margin: auto;
+  margin-top: -441px;
+  margin-right: -1%;
+}
